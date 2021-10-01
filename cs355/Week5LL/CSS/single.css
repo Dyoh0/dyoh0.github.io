@@ -55,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 1110px) {
     .post-content figure {
         display: block;
         width: 75%;
