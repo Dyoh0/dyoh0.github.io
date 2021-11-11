@@ -1,48 +1,48 @@
 body {
-   background-color: rgba(196, 248, 255, 0.685);
+  background-color: rgba(196, 248, 255, 0.685);
 }
 
 h1 {
-   background-color: gray;
-   color: black;
-   text-align: center;
+  background-color: rgba(139, 183, 223, 0.692);
+  color: black;
+  text-align: center;
 }
 
 .projectContainer {
-   margin-left: auto;
-   margin-right: auto;
-   border-radius: 10px;
-   width: 40vw;
-   background-color: rgba(158, 208, 255, 0.479);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 40vw;
+  background-color: rgba(158, 208, 255, 0.479);
 }
 .projectImage {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30vw;
-   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+  height: auto;
 }
 .projectTitle {
-   padding-top: 15px;
-   font-size: 32px;
-   font-weight: bold;
-   text-align: center;
+  padding-top: 15px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
 }
 .projectDesc {
-   padding-left: 15px;
-   padding-bottom: 15px;
-   text-align: center;
-   font-size: 1.3em;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: 1400px) {
-   .projectContainer {
-      width: 80vw;
-   }
-   .projectImage {
-      width: 60vw;
-   }
-   .projectDesc {
-      font-size: 1.5em;
-   }
+  .projectContainer {
+    width: 80vw;
+  }
+  .projectImage {
+    width: 60vw;
+  }
+  .projectDesc {
+    font-size: 1.5em;
+  }
 }
