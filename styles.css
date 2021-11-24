@@ -15,6 +15,7 @@ h1 {
   width: 40vw;
   background-color: rgba(158, 208, 255, 0.479);
 }
+
 .projectImage {
   display: block;
   margin-left: auto;
@@ -22,12 +23,14 @@ h1 {
   width: 30vw;
   height: auto;
 }
+
 .projectTitle {
   padding-top: 15px;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
+
 .projectDesc {
   padding-left: 15px;
   padding-bottom: 15px;
@@ -35,13 +38,19 @@ h1 {
   font-size: 1.3em;
 }
 
+.projectDesc a {
+  display: block;
+}
+
 @media screen and (max-width: 1400px) {
   .projectContainer {
     width: 80vw;
   }
+
   .projectImage {
     width: 60vw;
   }
+
   .projectDesc {
     font-size: 1.5em;
   }
